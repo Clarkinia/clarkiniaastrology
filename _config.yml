@@ -41,6 +41,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+github: [metadata]
 
 plugins: [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 sass:
