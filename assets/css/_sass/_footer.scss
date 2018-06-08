@@ -1,0 +1,25 @@
+.footer {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+.signature {
+  padding: 0px;
+  margin: 0px;
+}
+@media (max-width: $container-width) {
+  .footer {
+    min-height: 86px;
+    width: 95vw;
+  }
+}
+.menu-list {
+  line-height: $header-thickness;
+  float: right;
+}
+.menu-link {
+  padding: 10px;
+}

@@ -1,0 +1,41 @@
+$icon-transition-time: .4s;
+$envelope-color: #f39c12;
+$twitter-color: #00aced;
+$facebook-color: #3d5b99;
+$mastodon-color: #2588d0;
+$vimeo-color: #1ab7ea;
+$youtube-color: #ff0000;
+@mixin social-media-icon($color, $transition){
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+  &:hover{
+    color: $color;
+  }
+}
+.fa-envelope {
+  padding: 6px;
+  @include social-media-icon($envelope-color, $icon-transition-time);
+}
+.fa-twitter {
+  padding: 6px;
+  @include social-media-icon($twitter-color, $icon-transition-time);
+}
+.fa-facebook {
+  padding: 6px;
+  @include social-media-icon($facebook-color, $icon-transition-time);
+}
+.fa-mastodon {
+  padding: 1px;
+  @include social-media-icon($mastodon-color, $icon-transition-time);
+}
+.fa-vimeo {
+  padding: 1px;
+  @include social-media-icon($vimeo-color, $icon-transition-time);
+}
+.fa-youtube {
+  padding: 1px;
+  @include social-media-icon($youtube-color, $icon-transition-time);
+}

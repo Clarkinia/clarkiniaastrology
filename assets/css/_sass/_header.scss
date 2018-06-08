@@ -1,0 +1,28 @@
+.site-header {
+  min-height: 100px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 5px 6px -6px #bbb;
+}
+@media (max-width: $container-width) {
+  .site-header {
+      min-height: 86px;
+      width: 95vw;
+      position: fixed;
+      background-color: white;
+      box-shadow: 0 5px 6px -6px #bbb;
+  }
+}
+.site-title {
+  margin: 0;
+  padding: 24px 0 0 0;
+  text-align:center;
+}
+.author-subhead {
+  text-align:center;
+  margin: 0;
+  padding: 12px 0 22px 0;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <!--- BACKGROUND IMAGE -->
+  <div class="shelf-background" {% if page.bgimage %} style="background-image: url(../../assets/img/{{ page.bgimage }})"{% endif %}>
+    {% include head.html %}
+    <header class="shelf-header">
+      <div class="shelf-header-content">
+        <h8><span class="shelf-headhead">{{ page.header }}</span></h8><br>
+
+      </div>
+
+<!--
+<h111><span class="shelf-author">{{ page.author }}</span></h111>
+    <div class="shelf-header-cta">
+       {% if page.bgimage %}
+      <h7>{{ page.cta }}</h7>
+      {% endif %}
+    </div>
+  -->
+    </header>
+    <body>
+      <div class="shelf-subhead-wrapper">
+        <div class="shelf-subhead"><h111>{{ page.subhead }}</h111></div><br>
+        <div class="shelf-subhead-cta"><h8>{{ page.cta }}</h8></div><br>
+      </div>
+      <div class="store-wrapper">
+        <div class="shelf-wrapper">
+          {{ content }}
+        </div>
+        {% include footer.html %}
+      </div>
+    </body>
+  </div> <!-- background image -->
+</html>

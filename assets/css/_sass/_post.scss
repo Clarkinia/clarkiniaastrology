@@ -1,0 +1,141 @@
+body img {
+    align: middle;
+    margin: 5px auto auto auto;
+    display: block;
+    max-width: 600px;
+}
+.page-content {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.post-info {
+  display: block;
+  margin-top: 3em;
+  margin-bottom: .5rem;
+}
+.post-date {
+  padding: 0;
+  margin: 0;
+}
+.post-title {
+  padding: 1px 0 8px 0;
+}
+.upper-post-share {
+  padding-bottom: 2rem;
+  float: right;
+}
+.post-author h2{
+  padding: 0px 0 0 0;
+}
+@media (max-width: $container-width) {
+  .page-content {
+    width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .featured-image img {
+    align: middle;
+    margin: 5px auto 5px;
+    display: block;
+    max-width: 60vw;
+  }
+}
+@media (max-width: $tablet-width) {
+  .page-content {
+    width: 95vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .featured-image img {
+    align: middle;
+    margin: 5px auto 5px;
+    display: block;
+    max-width: 95vw;
+  }
+}
+.lower-post-share {
+  padding-bottom: 1rem;
+  float: left;
+}
+/*
+  Related Posts
+*/
+.related {
+  margin: 100px 0 20px 0px;
+  padding: 0px;
+}
+.related-posts {
+  list-style-type: none;
+}
+.related-thumbnail {
+  height: 200px;
+  padding: 0px;
+  margin: 0 0 0px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.related-thumbnail h5 h6 h3 {
+  padding: 0;
+  margin: 0;
+}
+.related-title-container {
+  float:right;
+  display: inline-block;
+  width: 30%;
+  height: 56%;
+  padding: 20px;
+  margin: 60px 30px 0px 0px;
+  background: white;
+  vertical-align: baseline;
+  line-height: 10px;
+}
+.related-cat {
+  padding: 0px;
+  margin: 0px;
+}
+.related-title {
+  padding: 0px;
+  margin: 0px;
+}
+.related-description {
+  padding: 0px;
+  margin: 0px;
+}
+.related-thumbnail:hover {
+  outline: black solid 1px;
+  border-left: 2px solid black;
+  border-bottom: 3px solid black;
+}
+.related-thumbnail:hover div {
+  background: black;
+  color: white;
+}
+.related-thumbnail:hover h5 {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.related-thumbnail:hover h10 {
+  color: white;
+}
+@media (max-width: $container-width) {
+  .related-thumbnail{
+    width: 60vw;
+  }
+}
+@media (max-width: $tablet-width) {
+  .related-thumbnail{
+    width: 95vw;
+  }
+}

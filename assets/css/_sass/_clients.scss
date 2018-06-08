@@ -1,0 +1,142 @@
+/*
+  Header
+*/
+.cart-form-header {
+  padding: 0px 0px 0px 0px;
+  margin: 40px 0 0 80px;
+  width: 400px;
+  display: block;
+}
+/*
+  Site container
+*/
+.cart-form-body {
+  background-color: #8fc1e6;
+}
+.cart-container {
+  margin-left: 0;
+  margin-right: 0;
+}
+.cart-wrapper {
+  padding-top: 10px;
+  margin: auto;
+  display: block;
+}
+/*  The Deets Bullet Points
+  .cart-form-description {
+    padding: 0px 0px 0 0px;
+    margin: 0px 0 0 80px;
+    display: block;
+    width: 400px;
+  }
+  .cart-form-description h8{
+    background-color: #8fc1e6;
+  }
+*/
+/*
+  Form
+*/
+.hidden {
+  display: none;
+}
+.cart-orderform {
+  width: 560px;
+  background-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1px 0px 40px 40px;
+  text-align: left;
+  box-shadow: 2px 2px 2px 2px rgba(0.1,0.1,0.1,0.1);
+}
+.cart-orderform p{
+  font-family: Arial;
+}
+.cart-form-section {
+  margin: 50px 0 0 0;
+}
+.cart-form-section p{
+  margin: 0px 25px 0 0;
+}
+.cart-form-question {
+  margin: 20px 0 0 0;
+}
+/*
+  Purchase Cart
+*/
+.purchase-price {
+  font-family: Arial;
+  float: right;
+  padding: 0px 20px 0px 0px;
+}
+.purchase-steps {
+}
+/*
+  POLICY
+*/
+.purchase-purchase {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4px 4px 40px 4px;
+  width: 480px;
+}
+.purchase-purchase p {
+  font-family: Arial;
+}
+.purchase-policy p{
+  line-height: 22px;
+}
+.purchase-cancellation-header {
+  font-weight: bold;
+}
+/*
+  Submit BUTTON
+*/
+.purchase-paynow2confirm {
+}
+.purchase-paynow2confirm p{
+  font-size: 18px;
+  color: white;
+  font-variant: small-caps;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+}
+.purchase-paypal-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*
+  Resizers
+  $container-width: 1100px;
+  $resized-window: 860px;
+  $tablet-width: 600px;
+  $phone-width: 480px;
+*/
+@media (max-width: $tablet-width+150px) {
+  .cart-orderform {
+    width: 440px;
+    max-width: 440px;
+  }
+  .cart-orderform form{
+    width: 420px;
+    max-width: 420px;
+  }
+  .cart-form-header {
+    width: 350px;
+    max-width: 350px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: $phone-width+50px) {
+  .cart-orderform {
+    width: 340px;
+    max-width: 340px;
+  }
+  .cart-orderform form{
+    width: 320px;
+    max-width: 320px;
+  }
+}

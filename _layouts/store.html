@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+{% include head.html %}
+<header class="store-form-header"><!---  HEADER -->
+  <div class="store-form-title">
+    <h7>
+      Order Your
+      <span class="store-form-product">
+      {{ page.name }}
+      </span>
+    </h7>
+    <div class="store-form-subhead">
+      <h11>
+        {{ page.form-byline }}
+      </h11>
+    </div>
+  </div> <!---  closes out store-form-title -->
+</header>
+<body class="store-form-body">
+  <div class="store-container">
+    <!--- BACKGROUND IMAGE -->
+    <div class="page-background" {% if page.bgimage %} style="background-image: url(../../assets/img/{{ page.bgimage }})"{% endif %}>
+      <div class="store-wrapper">
+        <!--- THE DEETS -->
+        <div class="store-form-description"><!---  DEETS -->
+          <h8>{{ page.money-offer }}</h8>
+          <div class ="store-form-includes">
+            <h15>Your {{ page.name }} includes: {{ content }}</h15>
+            <h15>{{ page.receive }}</h15>
+          </div>
+        </div>
+        <!--- ORDER FORM STARTS -->
+        <div class="store-orderform">
+          <form name="contact" method="POST" data-netlify="true" action="purchases/{{ page.cart-url }}">
+            <!--- BOT-KILLER .hidden in the CSS -->
+            <p class="hidden">
+              <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+              <label>Reading: <input name="bot-field" value="{{ page.name }}"></label>
+            </p>
+            <!--- 1 SCHEDULE -->
+            <div class="store-form-section">
+              <h8>Schedule your appointment</h8><br>
+              <!--- 1a SELECT APPT DATE -->
+              <div class="store-form-question">
+                <div class="date-selector">
+                <label>
+                  <!-- <p>Select an available date<br> -->
+                    <select name="schedule-date-time" required>
+                      <option value="">Select an available date</option>
+                      <option value="06/02/11:00am">Sat 6/2 @11:00am</option>
+                      <option value="06/02/12:30pm">Sat 6/2 @12:30pm</option>
+                      <option value="06/02/2:00pm">Sat 6/2 @2:00pm</option>
+
+                      <option value="06/04/11:00am">Mon 6/4 @11:00am</option>
+                      <option value="06/04/12:30pm">Mon 6/4 @12:30pm</option>
+                      <option value="06/04/2:00pm">Mon 6/4 @2:00pm</option>
+
+                      <option value="06/04/6:30pm">Mon 6/4 @6:30pm</option>
+                      <option value="06/04/8:00pm">Mon 6/4 @8:00pm</option>
+                      <option value="06/04/9:30pm">Mon 6/4 @9:30pm</option>
+
+                      <option value="06/02/11:00am">Sat 6/9 @11:00am</option>
+                      <option value="06/02/12:30pm">Sat 6/9 @12:30pm</option>
+                      <option value="06/02/2:00pm">Sat 6/9 @2:00pm</option>
+
+                      <option value="06/04/11:00am">Mon 6/11 @11:00am</option>
+                      <option value="06/04/12:30pm">Mon 6/11 @12:30pm</option>
+                      <option value="06/04/2:00pm">Mon 6/11 @2:00pm</option>
+
+                      <option value="06/04/6:30pm">Mon 6/11 @6:30pm</option>
+                      <option value="06/04/8:00pm">Mon 6/11 @8:00pm</option>
+                      <option value="06/04/9:30pm">Mon 6/11 @9:30pm</option>
+
+                      <option value="06/02/11:00am">Sat 6/16 @11:00am</option>
+                      <option value="06/02/12:30pm">Sat 6/16 @12:30pm</option>
+                      <option value="06/02/2:00pm">Sat 6/16 @2:00pm</option>
+
+                      <option value="06/04/11:00am">Mon 6/18 @11:00am</option>
+                      <option value="06/04/12:30pm">Mon 6/18 @12:30pm</option>
+                      <option value="06/04/2:00pm">Mon 6/18 @2:00pm</option>
+
+                      <option value="06/04/6:30pm">Mon 6/18 @6:30pm</option>
+                      <option value="06/04/8:00pm">Mon 6/18 @8:00pm</option>
+                      <option value="06/04/9:30pm">Mon 6/18 @9:30pm</option>
+
+                      <option value="06/02/11:00am">Sat 6/23 @11:00am</option>
+                      <option value="06/02/12:30pm">Sat 6/23 @12:30pm</option>
+                      <option value="06/02/2:00pm">Sat 6/23 @2:00pm</option>
+
+                      <option value="06/04/11:00am">Mon 6/25 @11:00am</option>
+                      <option value="06/04/12:30pm">Mon 6/25 @12:30pm</option>
+                      <option value="06/04/2:00pm">Mon 6/25 @2:00pm</option>
+
+                      <option value="06/04/6:30pm">Mon 6/25 @6:30pm</option>
+                      <option value="06/04/8:00pm">Mon 6/25 @8:00pm</option>
+                      <option value="06/04/9:30pm">Mon 6/25 @9:30pm</option>
+                    </select>
+                  </p>
+                </label>
+              </div>
+            </div> <!-- closes store-form-question SELCT AVAIL DATE -->
+            <!--- 1b PHONE OR IN-PERSON -->
+            <div class="store-form-question">
+              <label>
+                <p>
+                  <span class="tooltip">
+                    <input type="radio" name="where" value="phone" required> Phone
+                      <span class="tooltiptext">Phone readings work their mojo just as well as in-person.</span>
+                  </span>
+                  <span class="tooltip">
+                    <input type="radio" name="where" value="in-person"> In-Person<br>
+                      <span class="tooltiptext">In-person readings take place in Hollywood, CA. Exact location will be emailed to you.</span>
+                    </span>
+                 </p>
+                </label>
+              </div><!-- closes store-form-question PHONE OR IN PERSON-->
+              <!-- 2 CONTACT INFO -->
+              <div class="store-form-section">
+                  <h8>Enter your contact information</h8><br>
+                  <p>
+                    <label>Name <br><input type="text" name="name" placeholder="Name" required></label>
+                  </p>
+                  <p>
+                    <label>Email <br><input type="text" name="email" placeholder="Email" required></label>
+                  </p>
+                  <p>
+                    <label>Phone <br><input type="text" name="phone" placeholder="Phone" required></label>
+                  </p>
+              </div> <!-- closes store-form-section CONTACT INFORMATION-->
+              <!-- 3 BIRTH INFO -->
+              {% if page.get-birth-info %}
+              <div class="store-form-section">
+                <h8>Enter your birth information</h8><br>
+                <p>
+                  <label>Where you were born<br>
+                    <input type="text" name="birth-location" placeholder="Country, City, State" required><br>
+                  </label>
+                </p>
+                <p>
+                <label>Date of birth<br>
+                  <input type="date" name="bday" placeholder="mm/dd/yyyy" required><br>
+                </label>
+                </p>
+                <p>
+                <label>Time of birth<br>
+                  <input type="time" name="usr_time" placehoder="--:--:am/pm"><br>
+                </label>
+                <!-- 3b EXACT APPROX UNKOWN-->
+                <div class="store-form-question">
+                  <p class="exact-times">
+                    <label>
+                      <span class="tooltip">
+                        <input type="radio" name="birth-time" value="exact-time" required>Exact Time<br>
+                          <span class="tooltiptext">Exact time is preferred for the most accurate chart reading. Birth time can be found on your birth certificate.</span>
+                      </span>
+                      <span class="tooltip">
+                        <input type="radio" name="birth-time" value="guesswork-time">Approximation<br>
+                          <span class="tooltiptext">A chart can also be based on a general time-frame, within an hour or so. Ask your mom, auntie or grandma and they might remember the general time-frame.</span>
+                      </span>
+                      <span class="tooltip">
+                        <input type="radio" name="birth-time" value="natal">Unknown<br>
+                          <span class="tooltiptext">Without the time, there are important chart elements that will be missing, such as rising sign and house placements. If you have no idea what time you were born try to track down your birth certificate.</span>
+                      </span>
+                    </label>
+                  </p>
+                </div><!-- closes out 3b EXACT APPROX UNKOWN -->
+              </div><!-- closes out BIRTH INFO -->
+              {% endif %}
+              <div class="button-margins">
+                <button type="submit" class="store-form-button"><h8>NEXT <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h8></button>
+              </div>
+            </form>
+          </div> <!--- clsoes out store-orderform -->
+        </div> <!---  closes out store-wrapper -->
+      </div> <!-- background image -->
+    </div> <!---  closes out store-container -->
+    {% include footer.html %}
+  </body>
+</html>

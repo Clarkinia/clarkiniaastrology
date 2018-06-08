@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+{% include head.html %}
+<header class="cart-form-header"><!---  HEADER -->
+</header>
+<body class="cart-form-body">
+  <div class="cart-container">
+    <div class="cart-wrapper">
+      <!--- ORDER FORM STARTS -->
+      <div class="cart-orderform">
+        <!--- BOT-KILLER .hidden in the CSS -->
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+        </p>
+        <!--- 1 RECEIPT -->
+        <div class="cart-form-section">
+          <h8>{{ page.header }}</h8><br>
+          <div class="cart-form-question">
+            <p>
+              <span class="purchase-steps">{{ page.subhead }}
+              </span>
+            </p>
+          </div>
+        </div>
+
+      </div> <!--- clsoes out cart-orderform -->
+      <!--- 3 PAY -->
+      <div class="purchase-purchase">
+        <div class="purchase-policy"> <!--- PURCHASE POLICY -->
+          <p><span class="purchase-cancellation-header">Cancellation notice:</span>
+            You may cancel for a full refund when you give at least 24-hours notice. If you miss your appointment, cancel or reschedule with less than 24-hours notice, you will be charged the full amount of your purchase.
+          </p>
+        </div>
+
+      </div><!-- closes out PURCHPURCH -->
+    </div> <!---  closes out cart-wrapper -->
+  </div> <!---  closes out cart-container -->
+  {% include footer.html %}
+  </body>
+</html>

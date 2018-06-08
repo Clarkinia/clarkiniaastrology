@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+{% include head.html %}
+<header class="cart-form-header"><!---  HEADER -->
+</header>
+<body class="cart-form-body">
+  <div class="cart-container">
+    <div class="cart-wrapper">
+      <!--- ORDER FORM STARTS -->
+      <div class="cart-orderform">
+        <!--- 1 RECEIPT -->
+        <div class="cart-form-section">
+          <h8>Payment</h8><br>
+          <div class="cart-form-question">
+            <p>
+              <span class="purchase-steps">Your order has been received and your appointment will be confirmed once payment is processed.
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="cart-form-section">
+          <h8>Review order</h8><br>
+          <!--- 2 PURCHASE ITEM AND PRICE -->
+          <div class="cart-form-question">
+              <p class="review-order">
+                <span class="purchase-item">{{ page.name }}</span>
+                <span class="purchase-price">${{ page.price }}</span>
+              </p>
+              <p class="purchase-receive">{{ content }}</p>
+          </div><!-- closes cart-form-question REView ORDER -->
+        </div> <!-- closes cart-form-section REView ORDER -->
+      </div> <!--- clsoes out cart-orderform -->
+      <!--- 3 PAY -->
+      <div class="purchase-purchase">
+        <div class="purchase-policy"> <!--- PURCHASE POLICY -->
+          <p><span class="purchase-cancellation-header">Cancellation notice:</span>
+            You may cancel for a full refund when you give at least 24-hours notice. If you miss your appointment, cancel or reschedule with less than 24-hours notice, you will be charged the full amount of your purchase.
+          </p>
+        </div>
+        <div class="purchase-paynow2confirm"> <!--- PAYNOWCONFIRM PAYPAL BUTTONS -->
+          <p>pay now to confirm your reservation</p>
+          {% if page.career %}
+          <div class="button-margins">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="purchase-paypal-button">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="VKZQBBQ8A4EE6">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+          {% endif %}<!-- closes out BUTTON MARGINS NATAL CHART -->
+          {% if page.natal %}
+          <div class="button-margins">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="purchase-paypal-button">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="QHZLMKDEC846G">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div>
+          {% endif %}<!-- closes out BUTTON MARGINS CAREER CHART -->
+          {% if page.tarot %}
+          <div class="button-margins">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="purchase-paypal-button">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="L356SC6DW3U38">
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </div> <!-- closes out BUTTON MARGINS TAROT -->
+          {% endif %}
+        </div> <!-- closes out PAYNOWCONFIRM PAYPAL BUTTONS -->
+      </div><!-- closes out PURCHPURCH -->
+    </div> <!---  closes out cart-wrapper -->
+  </div> <!---  closes out cart-container -->
+  {% include footer.html %}
+  </body>
+</html>

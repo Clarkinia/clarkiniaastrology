@@ -1,0 +1,218 @@
+/*
+  Page Overall
+*/
+body {
+  background-color: white;
+}
+.shelf-header {
+  padding: 0;
+  margin: 0px;
+}
+.shelf-header-content {
+  color: black;
+  width:240px;
+  padding: 10px 0 10px 0;
+  margin: 0px 0 0 60px;
+  text-align: left;
+  background-color:  white;
+}
+.shelf-headhead {
+  padding: 0;
+  margin: 0;
+}
+
+.shelf-author {
+  color: #b300b3;
+  padding: 0px 0 0px 0;
+  color: white;
+  //color: #ff8533;
+  font-size: 1em;
+  font-weight: 400;
+}
+.shelf-background {
+  padding:0px;
+  margin: 0px 0 0 0;
+  position: initial;
+  background-position: left top;
+  background-size: cover;
+}
+.store-wrapper {
+  //position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+/*
+  Shelf subhead
+*/
+.shelf-subhead-wrapper {
+  padding: 0px;
+  margin: 0px 0 0 0px;
+  background-color: black;
+
+}
+.shelf-subhead h111{
+  line-height: 80px;
+  color: white;
+  //text-decoration: none;
+}
+.shelf-subhead {
+  width: 640px;
+
+  margin: 0px 0 0 60px;
+  padding: 20px 0 0px 0;
+  //color: #b300b3;;
+  //color: #ff8533;
+  //color: #1279c5;
+  font-size: 1em;
+  font-weight: 400;
+
+}
+.shelf-subhead-cta {
+  width: 640px;
+  margin: 0px 0 0 60px;
+  padding: 20px 0 0px 0;
+  color: white;
+}
+/*
+  Box Size
+*/
+* {
+  box-sizing: border-box;
+}
+.store-items {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.store-items ul {
+  margin: 0px auto 0px auto;
+  padding: 20px;
+  list-style-type: none;
+  content: "";
+  clear: both;
+  display: table;
+  align: middle;
+}
+.store-items li {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  margin: 0px;
+  max-width: 320px;
+}
+.store-items a {
+  color: black;
+  text-decoration: none;
+}
+/*
+  Box Appearance
+*/
+.store-top {
+  padding: 0px;
+  margin: 0px;
+  background: #fff2e5;
+}
+.store-top:hover {
+  box-shadow: 6px 6px 6px -8px grey;
+  border: 1px;
+  background: #ffe6cc;
+  //padding: 2px 0px 0px 0px;
+}
+/*
+  Buttons
+*/
+.store-button {
+  margin: 20px 0 0 0;
+  padding: 0px;
+  width: 100%;
+  float: left;
+  line-height: 10px;
+}
+.store-button img{
+  width: 24vw;
+  max-width: 260px;
+  border: none;
+  padding: 0px;
+  margin: 0px 0 20px 0;
+}
+.store-button img:hover{
+  box-shadow: 6px 6px 6px -6px grey;
+  border: 1px;
+}
+.store-cta-button h15{
+  margin: 0px;
+  padding: 0px;
+  color: #1279c5;
+}
+.store-cta-button h15:hover {
+  text-decoration: underline;
+  color: green;
+}
+/*
+  Bullet Points
+*/
+.store-whatuget h15 {
+  font-weight: bold;
+}
+.store-whatuget ul {
+  color: black;
+  list-style-type: disc;
+  list-style-position: inside;
+  display: block;
+  padding: 0px;
+  margin-top: 10px;
+}
+.store-whatuget li {
+  float: left;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.store-whatuget ul :nth-child(4) {
+  display: none;
+}
+.store-whatuget ul :nth-child(5) {
+  display: none;
+}
+/*
+  Testimonial
+*/
+.store-testimonial {
+  margin:20px 0 22px 0;
+  width: 24vw;
+  max-width: 260px;
+  line-height: 16px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: black;
+  padding:10px;
+}
+.store-testimonial h15 {
+  color: white;
+}
+/*
+  Resizers
+  $container-width: 1100px;
+  $resized-window: 860px;
+  $tablet-width: 600px;
+  $phone-width: 480px;
+*/
+@media (max-width: $tablet-width) {
+  .store-items li {
+    float: none;
+    width: 100vw;
+  }
+  .store-button img{
+    width: 80vw;
+    max-width: 260px;
+  }
+  .store-testimonial {
+    width: 80vw;
+    max-width: 260px;
+  }
+  .shelf-background {
+    background-size: contain;
+  }
+}
