@@ -21,4 +21,4 @@ cart-url: natalcart
 <!-- STORE -->
 - 1-hour consultation
 - personalized natal chart pdf
-- life patterns, family and relationship
+- personality and relationship patterns

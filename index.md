@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: shelf
 title:
+image: noun_453394_cc.gif
 header: Clarkinia Astrology
 subhead: straightforward intuitive guidance
 author: with Regina Clarkinia

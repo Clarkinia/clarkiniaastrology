@@ -1,22 +1,11 @@
 <!doctype html>
 <html>
-  <!--- BACKGROUND IMAGE -->
-  <div class="shelf-background" {% if page.bgimage %} style="background-image: url(../../assets/img/{{ page.bgimage }})"{% endif %}>
     {% include head.html %}
     <header class="shelf-header">
       <div class="shelf-header-content">
+        <span class="header-image"><img src="{{ site.github.url }}/assets/img/{{ page.image }}" ></span>
         <h8><span class="shelf-headhead">{{ page.header }}</span></h8>
-        <img src="../../assets/img/{{ page.image }}"><br>
       </div>
-
-<!--
-<h111><span class="shelf-author">{{ page.author }}</span></h111>
-    <div class="shelf-header-cta">
-       {% if page.bgimage %}
-      <h7>{{ page.cta }}</h7>
-      {% endif %}
-    </div>
-  -->
     </header>
     <body>
       <div class="shelf-subhead-wrapper">
@@ -32,5 +21,4 @@
         {% include footer.html %}
       </div>
     </body>
-  </div> <!-- background image -->
 </html>

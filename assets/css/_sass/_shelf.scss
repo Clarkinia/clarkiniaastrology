@@ -6,11 +6,11 @@ body {
 }
 .shelf-header {
   padding: 0;
-  margin: 0px;
+  margin: 0px 0 10px 0;
 }
 .shelf-header-content {
   color: black;
-  width:240px;
+  width:640px;
   padding: 10px 0 10px 0;
   margin: 0px 0 0 60px;
   text-align: left;
@@ -20,7 +20,11 @@ body {
   padding: 0;
   margin: 0;
 }
-
+.header-image img {
+  float:left;
+  width: 40px;
+  margin: 0 6px 0 2px;
+}
 .shelf-author {
   color: #b300b3;
   padding: 0px 0 0px 0;
@@ -225,4 +229,28 @@ body {
   .shelf-background {
     background-size: contain;
   }
+  .shelf-header-content {
+    width:100vw;
+    padding: 10px 0 10px 0;
+    margin: 0px 0 0 60px;
+  }
+  .shelf-subhead {
+    width:100vw;
+  }
+  .shelf-subhead-description h111{
+    line-height: 1.1em;
+    font-size: 3.4em;
+  }
+  .shelf-subhead-description {
+    width: 100vw;
+    margin: 0px 0 0 60px;
+    padding: 20px 0 0px 0;
+    font-size: 1em;
+  }
+  .shelf-subhead-cta {
+    width: 80vw;
+    margin: 0px 0 0 60px;
+    padding: 20px 0 0px 0;
+  }
+
 }

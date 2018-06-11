@@ -1,13 +1,13 @@
----
+<!---
 layout: shelf
 title:
 header: Clarkinia Astrology
-image: noun_1546369_cc.svg
+image: store_buttons_career.jpg
 subhead: straightforward intuitive guidance
 author: with Regina Clarkinia
 cta: Choose a reading based on what you need now.
 ---
-<!-- bgimage: store_home_bg_1200px_bags_bags_all_type_of_bags.jpg -->
+<!-- bgimage: store_home_bg_1200px_bags_bags_all_type_of_bags.jpg
 <body>
 <article class="store">
   <div class="store-items">
@@ -31,11 +31,12 @@ cta: Choose a reading based on what you need now.
           <div class="store-testimonial">
             <h15>"{{ reading.testimonial }}" —{{ reading.testimonial-auth}}</h15>
           </div>
-        </div> <!-- closes store-top -->
+        </div> <!-- closes store-top
         </a>
       </li>
       {% endfor %}
     </ul>
-  </div><!-- closes store-items -->
+  </div><!-- closes store-items
 </article>
 </body>
+-->
