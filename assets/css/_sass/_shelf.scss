@@ -235,22 +235,41 @@ body {
     margin: 0px 0 0 60px;
   }
   .shelf-subhead {
-    width:100vw;
+    width:80vw;
   }
   .shelf-subhead-description h111{
     line-height: 1.1em;
     font-size: 3.4em;
   }
   .shelf-subhead-description {
-    width: 100vw;
+    width: 80vw;
     margin: 0px 0 0 60px;
     padding: 20px 0 0px 0;
     font-size: 1em;
   }
   .shelf-subhead-cta {
-    width: 80vw;
+    width: 76vw;
     margin: 0px 0 0 60px;
     padding: 20px 0 0px 0;
+  }
+}
+@media (max-width: $phone-width) {
+  .shelf-subhead-description h111{
+    line-height: 1.1em;
+    font-size: 2.2em;
+  }
+  .shelf-header-content {
+    width:80vw;
+    padding: 10px 0 10px 0;
+    margin: 0px 0 0 60px;
+  }
+  .shelf-headhead {
+    font-size: .8em;
+  }
+  .header-image img {
+    float:left;
+    width: 40px;
+    margin: 0 6px 0 2px;
   }
 
 }
