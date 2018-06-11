@@ -2,6 +2,7 @@
 layout: shelf
 title:
 header: Clarkinia Astrology
+image: noun_1546369_cc.svg
 subhead: straightforward intuitive guidance
 author: with Regina Clarkinia
 cta: Choose a reading based on what you need now.

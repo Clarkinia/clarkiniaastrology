@@ -5,8 +5,8 @@
     {% include head.html %}
     <header class="shelf-header">
       <div class="shelf-header-content">
-        <h8><span class="shelf-headhead">{{ page.header }}</span></h8><br>
-
+        <h8><span class="shelf-headhead">{{ page.header }}</span></h8>
+        <img src="../../assets/img/{{ page.image }}"><br>
       </div>
 
 <!--
@@ -20,8 +20,10 @@
     </header>
     <body>
       <div class="shelf-subhead-wrapper">
-        <div class="shelf-subhead"><h111>{{ page.subhead }}</h111></div><br>
-        <div class="shelf-subhead-cta"><h8>{{ page.cta }}</h8></div><br>
+        <div class="shelf-subhead">
+          <div class="shelf-subhead-description"><h111>{{ page.subhead }}</h111></div><br>
+          <div class="shelf-subhead-cta"><h8>{{ page.cta }}</h8></div><br>
+        </div>
       </div>
       <div class="store-wrapper">
         <div class="shelf-wrapper">
