@@ -5,20 +5,62 @@
       <div class="shelf-header-content">
         <span class="header-image"><img src="{{ site.github.url }}/assets/img/{{ page.image }}" ></span>
         <h8><span class="shelf-headhead">{{ page.header }}</span></h8>
-      </div>
+      </div> <!-- shelf-header-content -->
     </header>
     <body>
       <div class="shelf-subhead-wrapper">
         <div class="shelf-subhead">
           <div class="shelf-subhead-description"><h111>{{ page.subhead }}</h111></div><br>
           <div class="shelf-subhead-cta"><h8>{{ page.cta }}</h8></div><br>
-        </div>
-      </div>
+        </div> <!-- shelf-subhead -->
+      </div> <!-- shelf-subhead-wrapper -->
       <div class="store-wrapper">
         <div class="shelf-wrapper">
           {{ content }}
-        </div>
+        </div> <!-- shelf-wrapper -->
+      </div> <!-- store-wrapper-->
+      <div class="contact-wrapper">
+        <div class="contact-section">
+          <div class="contact about">
+            <!--  <div class="contact-biohead"><h8>{{page.bioheader}}</h8></div> -->
+            <div class="contact-bioimage"><img src="{{ site.github.url }}/assets/img/{{ page.biopic }}"></div>
+            <div class="contact-bio-blurb"><h8 class="bio-name">{{page.bioheader}}</h8><h15> {{ page.bio }}</h15></div>
+          </div> <!-- about -->
+
+          <div class="contact message">
+            <span class="contact-message-form">
+              <form name="contact"  method="POST" data-netlify="true" action="purchases/{{ page.cart-url }}">
+                <!--- BOT-KILLER .hidden in the CSS -->
+                <p class="hidden">
+                  <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+                  <label>Reading: <input name="bot-field" value="{{ page.name }}"></label>
+                </p>
+                <div class="contact-form">
+                    <h8>Contact</h8><br>
+                    <h15>Get an immediate response to your message. </h15>
+                    <p>
+                      <label>Name <br><input type="text" name="name" placeholder="Name" required></label>
+                    </p>
+                    <p>
+                      <label>Email <br><input type="text" name="email" placeholder="Email" required></label>
+                    </p>
+                    <p>
+                    <label for="subject">Subject <br></label>
+                      <textarea id="messagebox" type="text" name="subject" placeholder="Your message" ></textarea>
+                    </p>
+                </div>
+                <div class="contact-button-margins">
+                  <button type="submit" class="store-form-button"><h8>SEND <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h8></button>
+                </div>
+              </form>
+            </span> <!-- contact-message-form MEDIA RESIZING -->
+          </div> <!-- message -->
+
+
+        </div> <!-- contact-section -->
+      </div> <!-- contact-wrapper -->
+
+
         {% include footer.html %}
-      </div>
     </body>
 </html>

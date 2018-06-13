@@ -3,11 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: shelf
 title:
-image: noun_453394_cc.gif
+image: noun_103916_cc_horiz.gif
 header: Clarkinia Astrology
 subhead: straightforward intuitive guidance
 author: with Regina Clarkinia
 cta: Choose a reading based on what you need now.
+bioheader: Regina Clarkinia
+biopic: bio_pic_astrology_bw.jpg
+bio: has been reading tarot and astrology charts for 20 years. She writes about mysticism and teaches practical meditation techniques. Her readings investigate family relationships, personality patterns and career strategy. Regina tells it like it is with candid readings to get your butt in gear.
 ---
 <!-- bgimage: store_home_bg_1200px_bags_bags_all_type_of_bags.jpg -->
 <body>

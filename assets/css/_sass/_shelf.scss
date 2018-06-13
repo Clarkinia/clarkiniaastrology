@@ -4,6 +4,9 @@
 body {
   background-color: white;
 }
+/*
+  Header
+*/
 .shelf-header {
   padding: 0;
   margin: 0px 0 10px 0;
@@ -25,26 +28,6 @@ body {
   width: 40px;
   margin: 0 6px 0 2px;
 }
-.shelf-author {
-  color: #b300b3;
-  padding: 0px 0 0px 0;
-  color: white;
-  //color: #ff8533;
-  font-size: 1em;
-  font-weight: 400;
-}
-.shelf-background {
-  padding:0px;
-  margin: 0px 0 0 0;
-  position: initial;
-  background-position: left top;
-  background-size: cover;
-}
-.store-wrapper {
-  //position: relative;
-  padding: 0px;
-  margin: 0px;
-}
 /*
   Shelf subhead
 */
@@ -56,21 +39,16 @@ body {
   width: 640px;
   display: block;
   padding: 0px;
-  //margin: 0px auto 0 auto;
   text-align: left;
 }
 .shelf-subhead-description h111{
   line-height: 80px;
   color: white;
-  //text-decoration: none;
 }
 .shelf-subhead-description {
   width: 640px;
   margin: 0px 0 0 60px;
   padding: 20px 0 0px 0;
-  //color: #b300b3;;
-  //color: #ff8533;
-  //color: #1279c5;
   font-size: 1em;
   font-weight: 400;
 }
@@ -89,6 +67,13 @@ body {
   color: white;
   text-align: right;
   float: right;
+}
+/*
+  The Shelf
+*/
+.store-wrapper {
+  padding: 0px;
+  margin: 0px;
 }
 /*
   Box Size
@@ -132,7 +117,6 @@ body {
   box-shadow: 6px 6px 6px -8px grey;
   border: 1px;
   background: #ffe6cc;
-  //padding: 2px 0px 0px 0px;
 }
 /*
   Buttons
@@ -207,12 +191,108 @@ body {
   color: white;
 }
 /*
+  Contact
+*/
+.contact-wrapper {
+
+  margin: 10px;
+  padding: 0;
+}
+.contact-section {
+  background-color: #8fc1e6;
+  margin: 0px auto 0px auto;
+  padding: 40px 20px 20px 40px;
+  content: "";
+  clear: both;
+  display: table;
+  align: middle;
+}
+.contact {
+
+  width: 100vw;
+}
+.about {
+  float: left;
+  width: 30%;
+  padding: 0px;
+  margin: 10px;
+}
+.about img{
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+.message {
+  float: right;
+  width: 66%;
+  padding: 10px;
+  margin: 0px;
+}
+.contact-form {
+  float: right;
+  margin: 0 20px 0 0;
+}
+.contact-button-margins {
+  float: right;
+  padding: 10px;
+  margin: 0px 20% 0px 0px;
+}
+.bio-name {
+  font-size: 1.4em;
+  line-height: normal;
+  font-weight: bold;
+}
+textarea#messagebox {
+  font-family: Arial;
+  width: 400px;
+  height: 120px;
+  border: 1px dotted #999;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 16px;
+  color:gray;
+  font-style:italic;
+}
+/*
   Resizers
   $container-width: 1100px;
   $resized-window: 860px;
   $tablet-width: 600px;
   $phone-width: 480px;
 */
+@media (max-width: $tablet-width+140px) {
+  .contact-section {
+    background-color: white;
+  }
+  .about {
+    background-color: #8fc1e6;
+    width: 70vw;
+    margin: 0px;
+  }
+  .about img {
+    width: 90%;
+    padding: 25px 10px 10px 0px;
+  }
+  .contact-bio-blurb {
+    width: 90%;
+    padding: 5px 10px 40px 0px;
+  }
+  .message {
+    background-color: #8fc1e6;
+    width: 70vw;
+    margin: 40px 0 0px 10px;
+    padding: 20px;
+  }
+  .contact-message-form {
+    width: 90%;
+  }
+  .contact-form {
+    padding: 10px auto 0 auto;
+    margin: 0 20px 0 auto;
+  }
+  textarea#messagebox {
+    width: 360px;
+  }
+}
 @media (max-width: $tablet-width) {
   .store-items li {
     float: none;
@@ -252,6 +332,26 @@ body {
     margin: 0px 0 0 60px;
     padding: 20px 0 0px 0;
   }
+  .contact-message-form input[type=text] {
+    width: 260px;
+  }
+  textarea#messagebox {
+    width: 260px;
+  }
+  .contact-button-margins {
+    padding-left: 30px;
+    float: none;
+  }
+}
+@media (max-width: $phone-width+50px) {
+  textarea#messagebox {
+    width: 260px;
+  }
+  .contact-button-margins {
+    padding-left: 0px;
+    float: none;
+  }
+
 }
 @media (max-width: $phone-width) {
   .shelf-subhead-description h111{
@@ -271,5 +371,16 @@ body {
     width: 40px;
     margin: 0 6px 0 2px;
   }
+  .about {
+    width: 80vw;
+    margin: 0px 0 0px 0px;
+    padding: 20px;
+  }
+  .message {
+    width: 80vw;
+    margin: 40px 0 0px 0px;
+    padding: 20px;
+  }
+
 
 }
