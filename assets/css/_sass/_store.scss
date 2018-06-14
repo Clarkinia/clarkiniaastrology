@@ -1,5 +1,5 @@
 /*
-  Header
+  Store Form Head
 */
 .store-form-header {
   padding: 0px 0px 0px 0px;
@@ -234,7 +234,6 @@ input[type=time]:-ms-input-placeholder { /* IE (10+?) */
   $tablet-width: 600px;
   $phone-width: 480px;
 */
-
 @media (max-width: $tablet-width+150px) {
   .store-orderform {
     width: 440px;
@@ -260,27 +259,10 @@ input[type=time]:-ms-input-placeholder { /* IE (10+?) */
     max-width: 340px;
     margin-left: 40px;
   }
-  .store-wrapper {
-    //width: 80vw;
-  }
-  .store-container {
-    //width: 80vw;
-  }
-  .store-form-body {
-    //width: 80vw;
-  }
-  .store-form-description h8{
-    //line-height: normal;
-  }
   .page-background {
     background-size: 70%;
     background-position:180% 0%;
     background-clip: content-box;
-    //padding-top: 0px;
-    //padding-left: 140px;
-
-    //margin-left: 50px;
-    //background-size: 0%;
   }
 }
 @media (max-width: $phone-width+50px) {

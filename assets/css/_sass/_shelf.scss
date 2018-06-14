@@ -5,30 +5,6 @@ body {
   background-color: white;
 }
 /*
-  Header
-*/
-.shelf-header {
-  padding: 0;
-  margin: 0px 0 10px 0;
-}
-.shelf-header-content {
-  color: black;
-  width:640px;
-  padding: 10px 0 10px 0;
-  margin: 0px 0 0 60px;
-  text-align: left;
-  background-color:  white;
-}
-.shelf-headhead {
-  padding: 0;
-  margin: 0;
-}
-.header-image img {
-  float:left;
-  width: 40px;
-  margin: 0 6px 0 2px;
-}
-/*
   Shelf subhead
 */
 .shelf-subhead-wrapper {
@@ -38,26 +14,26 @@ body {
 .shelf-subhead {
   width: 640px;
   display: block;
-  padding: 0px;
+  padding: 20px 0 10px 0;
   text-align: left;
-}
-.shelf-subhead-description h111{
-  line-height: 80px;
   color: white;
 }
 .shelf-subhead-description {
   width: 640px;
   margin: 0px 0 0 60px;
-  padding: 20px 0 0px 0;
+  padding: 0px 0 0px 0;
   font-size: 1em;
   font-weight: 400;
+}
+.shelf-subhead-description h111{
+  line-height: 80px;
 }
 .shelf-subhead-cta {
   width: 640px;
   margin: 0px 0 0 60px;
   padding: 20px 0 0px 0;
-  color: white;
 }
+/* IF I WANT TO ADD THE PRICE TO STORE HEADER
 .shelf-subhead-promo-cost h111{
   text-align: right;
   color: white;
@@ -68,8 +44,9 @@ body {
   text-align: right;
   float: right;
 }
+ */
 /*
-  The Shelf
+  The Shelf - I WANT TO CREATE THIS AS AN INCLUDE EVENTUALLY
 */
 .store-wrapper {
   padding: 0px;
@@ -194,7 +171,6 @@ body {
   Contact
 */
 .contact-wrapper {
-
   margin: 10px;
   padding: 0;
 }
@@ -208,7 +184,6 @@ body {
   align: middle;
 }
 .contact {
-
   width: 100vw;
 }
 .about {
@@ -220,6 +195,11 @@ body {
 .about img{
   margin: 0 0 10px 0;
   width: 100%;
+}
+.bio-name {
+  font-size: 1.4em;
+  line-height: normal;
+  font-weight: bold;
 }
 .message {
   float: right;
@@ -235,11 +215,6 @@ body {
   float: right;
   padding: 10px;
   margin: 0px 20% 0px 0px;
-}
-.bio-name {
-  font-size: 1.4em;
-  line-height: normal;
-  font-weight: bold;
 }
 textarea#messagebox {
   font-family: Arial;
@@ -293,7 +268,7 @@ textarea#messagebox {
     width: 360px;
   }
 }
-@media (max-width: $tablet-width) {
+@media (max-width: $tablet-width+70) {
   .store-items li {
     float: none;
     width: 100vw;
@@ -308,11 +283,6 @@ textarea#messagebox {
   }
   .shelf-background {
     background-size: contain;
-  }
-  .shelf-header-content {
-    width:100vw;
-    padding: 10px 0 10px 0;
-    margin: 0px 0 0 60px;
   }
   .shelf-subhead {
     width:80vw;
@@ -339,7 +309,7 @@ textarea#messagebox {
     width: 260px;
   }
   .contact-button-margins {
-    padding-left: 30px;
+    padding-left: 0px;
     float: none;
   }
 }
@@ -347,40 +317,39 @@ textarea#messagebox {
   textarea#messagebox {
     width: 260px;
   }
-  .contact-button-margins {
-    padding-left: 0px;
-    float: none;
-  }
-
-}
-@media (max-width: $phone-width) {
   .shelf-subhead-description h111{
-    line-height: 1.1em;
+    line-height: 1em;
     font-size: 2.2em;
   }
-  .shelf-header-content {
-    width:80vw;
-    padding: 10px 0 10px 0;
-    margin: 0px 0 0 60px;
+  .shelf-subhead-cta h111{
+    line-height: 1em;
+    font-size: 2.2em;
   }
-  .shelf-headhead {
-    font-size: .8em;
-  }
-  .header-image img {
-    float:left;
-    width: 40px;
-    margin: 0 6px 0 2px;
+}
+@media (max-width: $phone-width) {
+  .contact-section {
+    background-color: #8fc1e6;
   }
   .about {
     width: 80vw;
+    min-width: 280px;
     margin: 0px 0 0px 0px;
-    padding: 20px;
+    padding: 0 0 0 10px;
   }
   .message {
     width: 80vw;
-    margin: 40px 0 0px 0px;
-    padding: 20px;
+    min-width: 280px;
+    display: block;
+    margin: 0px 0 0px 0px;
+    padding: 0px 0 0 0px;
   }
+  .contact-message-form {
 
-
+    margin: 0px 0 0px 0px;
+    padding: 0px 0 0 0px;
+  }
+  .contact-form {
+    margin: 0px 0 0px 0px;
+    padding: 0px 0 20px 10px;
+  }
 }

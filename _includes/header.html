@@ -1,21 +1,6 @@
-<header class="site-header">
-  <div class="site-title">
-    <h13>
-      <a href="{{ site.github.url }}/">{{ site.data.settings.title }}</a>
-    </h13>
-  </div>
-  <div class="author-subhead">
-    <h11>
-    <a href="{{ site.github.url }}/pages/about.html">by {{ site.author }}</a>
-  </h11>
-  </div>
-<!-- turning off menu for now
-  <nav class="menu-list">
-    {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.folder }}/{{ item.file }}" class="menu-link">{{ item.name }}</a>
-    {% endfor %}
--->
-    </div>
-  </div>
-
+<header class="shelf-header">
+  <div class="shelf-header-content">
+    <span class="header-image"><img src="{{ site.github.url }}/assets/img/{{ site.data.settings.image }}" ></span>
+    <h8><span class="shelf-headhead">{{ site.data.settings.header }}</span></h8>
+  </div> <!-- shelf-header-content -->
 </header>

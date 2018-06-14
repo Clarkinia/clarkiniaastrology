@@ -1,12 +1,7 @@
 <!doctype html>
 <html>
     {% include head.html %}
-    <header class="shelf-header">
-      <div class="shelf-header-content">
-        <span class="header-image"><img src="{{ site.github.url }}/assets/img/{{ page.image }}" ></span>
-        <h8><span class="shelf-headhead">{{ page.header }}</span></h8>
-      </div> <!-- shelf-header-content -->
-    </header>
+    {% include header.html %}
     <body>
       <div class="shelf-subhead-wrapper">
         <div class="shelf-subhead">
@@ -26,7 +21,6 @@
             <div class="contact-bioimage"><img src="{{ site.github.url }}/assets/img/{{ page.biopic }}"></div>
             <div class="contact-bio-blurb"><h8 class="bio-name">{{page.bioheader}}</h8><h15> {{ page.bio }}</h15></div>
           </div> <!-- about -->
-
           <div class="contact message">
             <span class="contact-message-form">
               <form name="contact"  method="POST" data-netlify="true" action="purchases/{{ page.cart-url }}">
@@ -37,7 +31,7 @@
                 </p>
                 <div class="contact-form">
                     <h8>Contact</h8><br>
-                    <h15>Get an immediate response to your message. </h15>
+                    <h15>Got questions? Let's talk. </h15>
                     <p>
                       <label>Name <br><input type="text" name="name" placeholder="Name" required></label>
                     </p>
@@ -48,19 +42,15 @@
                     <label for="subject">Subject <br></label>
                       <textarea id="messagebox" type="text" name="subject" placeholder="Your message" ></textarea>
                     </p>
-                </div>
-                <div class="contact-button-margins">
-                  <button type="submit" class="store-form-button"><h8>SEND <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h8></button>
-                </div>
+                    <div class="contact-button-margins">
+                      <button type="submit" class="store-form-button"><h8>SEND <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h8></button>
+                    </div>
+                </div> <!-- contact-form -->
               </form>
             </span> <!-- contact-message-form MEDIA RESIZING -->
-          </div> <!-- message -->
-
-
+          </div> <!-- contact message -->
         </div> <!-- contact-section -->
       </div> <!-- contact-wrapper -->
-
-
         {% include footer.html %}
     </body>
 </html>
