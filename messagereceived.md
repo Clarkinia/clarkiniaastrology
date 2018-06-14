@@ -1,9 +1,8 @@
 ---
 layout: clients
-header: Thank you for your payment.
-subhead: You will receive a confirmation email shortly.
-name: Thank you
-price: 150
+header: Thank you for your interest.
+subhead: You will receive a reply in two shakes of a lamb's tail.
+name: Message received
 slug: clients
 sku: ASTcar
 image: store_career_noun_1502690_cc.svg
@@ -15,8 +14,6 @@ bgimage: store-form-career-background3.jpg
 receive: You will receive your chart by email one day prior to your consultation.
 get-birth-info: Y
 career: this is for the paypal button
-the-notice: "Cancellation notice:"
-notice: You may cancel for a full refund when you give at least 24-hours notice. If you miss your appointment, cancel or reschedule with less than 24-hours notice, you will be charged the full amount of your purchase.
 ---
 <!-- STORE -->
 - 1-hour consultation

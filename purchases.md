@@ -1,7 +1,7 @@
 ---
 layout: shelf
 title:
-header:
+header: 
 ---
 <body>
 <article class="store">
