@@ -211,6 +211,9 @@ body {
   float: right;
   margin: 0 20px 0 0;
 }
+.lets-talk {
+  font-weight: bold;
+}
 .contact-button-margins {
   float: right;
   padding: 10px;
@@ -339,16 +342,12 @@ textarea#messagebox {
   .message {
     width: 80vw;
     min-width: 280px;
-    display: block;
-    margin: 0px 0 0px 0px;
-    padding: 0px 0 0 0px;
-  }
-  .contact-message-form {
-
+    //display: block;
     margin: 0px 0 0px 0px;
     padding: 0px 0 0 0px;
   }
   .contact-form {
+    width: 100%;
     margin: 0px 0 0px 0px;
     padding: 0px 0 20px 10px;
   }
