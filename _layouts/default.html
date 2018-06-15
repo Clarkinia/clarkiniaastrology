@@ -1,13 +1,19 @@
 <!doctype html>
 <html>
 {% include head.html %}
+{% include header.html %}
 <body>
- <div class="container">
-  {% include header.html %}
-  <div class="posts-wrapper">
+  <div class="shelf-subhead-wrapper">
+    <div class="shelf-subhead">
+      <div class="shelf-subhead-description"><h111>{{ page.subhead }}</h111></div><br>
+      <div class="shelf-subhead-cta"><h8>{{ page.cta }}</h8></div><br>
+    </div> <!-- shelf-subhead -->
+  </div> <!-- shelf-subhead-wrapper -->
+  <div class="purchase-purchase"><br>
+    <div class="default-wrapper">
     {{ content }}
+    </div>
   </div>
   {% include footer.html %}
- </div>
 </body>
 </html>
