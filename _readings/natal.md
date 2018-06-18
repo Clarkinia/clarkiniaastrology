@@ -19,6 +19,6 @@ get-birth-info: Y
 cart-url: natalcart
 ---
 <!-- STORE -->
-- 1-hour consultation
 - personalized natal chart pdf
+- 1-hour consultation
 - personality and relationship patterns

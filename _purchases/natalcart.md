@@ -18,5 +18,5 @@ notice: You may cancel for a full refund when you give at least 24-hours notice.
 ---
 <!-- STORE -->
 - Natal chart PDF
-- - 1-hour consultation
+- 1-hour consultation
 - You will receive your chart by email one day prior to your consultation.

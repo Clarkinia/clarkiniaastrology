@@ -19,6 +19,6 @@ get-birth-info: Y
 cart-url: careercart
 ---
 <!-- STORE -->
-- career indicators in your chart
 - personalized career chart pdf
 - 1-hour consultation
+- career indicators in your chart
