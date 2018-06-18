@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-http://clarkiniaastrology.com/* http://www.clarkiniaastrology.com/:splat 301!

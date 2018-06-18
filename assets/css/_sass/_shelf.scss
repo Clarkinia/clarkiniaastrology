@@ -245,9 +245,59 @@ input:focus textarea:focus{
   $resized-window: 860px;
   $tablet-width: 600px;
   $phone-width: 480px;
+  .store-items {
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+  .shelf-subhead {
+    width: 640px;
+    display: block;
+    padding: 20px 0 10px 0;
+    text-align: left;
+    color: white;
+  }
 */
 
-@media (max-width: $tablet-width+140px) {
+@media (min-width: 1000px) {
+  .shelf-head-left {
+    width:1000px;
+    margin: 0px auto 0px auto;
+    padding: 20px 20px 20px 0px;
+    list-style-type: none;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .shelf-subhead {
+    width: 1000px;
+    display: table;
+    list-style-type: none;
+    content: "";
+    clear: both;
+    //padding: 20px 0 10px 0;
+    margin: 0px auto 0px auto;
+    text-align: left;
+    color: white;
+  }
+  .contact-wrapper{
+    width:1000px;
+    margin: 0px auto 0px auto;
+    padding: 20px 20px 20px 0px;
+    list-style-type: none;
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+@media (min-width: 1200px) {
+  .shelf-subhead-wrapper {
+    background-color: white;
+  }
+  .shelf-subhead {
+    background-color: black;
+  }
+}
+  @media (max-width: $tablet-width+140px) {
   .contact-section {
     background-color: white;
   }
