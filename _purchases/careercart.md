@@ -17,6 +17,6 @@ the-notice: "Cancellation notice:"
 notice: You may cancel for a full refund when you give at least 24-hours notice. If you miss your appointment, cancel or reschedule with less than 24-hours notice, you will be charged the full amount of your purchase.
 ---
 <!-- STORE -->
-- 1-hour consultation
 - Career chart PDF
+- - 1-hour consultation
 - You will receive your chart by email one day prior to your consultation.
