@@ -4,7 +4,7 @@
 */
 .shelf-header {
   padding: 0;
-  margin: 0px 0 0px 0;
+  margin: 10px 0 10px 0;
 }
 .shelf-header-content {
   color: black;
@@ -27,27 +27,11 @@
 .header-image {
   margin: 0px 0px 0 0;
 }
-@media (max-width: $tablet-width+70) {
-  .shelf-header-content {
-    width:100vw;
-    padding: 10px 0 10px 0;
-    margin: 0px 0 0 60px;
-  }
-}
 
 @media (max-width: $phone-width) {
   .shelf-header-content {
     width:80vw;
-    padding: 10px 0 10px 0;
-    margin: 0px 0 0 60px;
-  }
-  .header-image img {
-    width: 35px;
-    margin: 4px 4px 0 2px;
-  }
-  .shelf-header-content {
-    width:80vw;
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0px 0;
     margin: 0px 0 0 60px;
   }
   .shelf-headhead {

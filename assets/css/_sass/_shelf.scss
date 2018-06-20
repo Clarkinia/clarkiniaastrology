@@ -87,11 +87,14 @@ body {
 .store-top {
   padding: 20px 15px 20px 15px;
   margin: 0px;
+  box-shadow: 6px 6px 6px -6px grey;
+  border: 1px;
+
   //background: #fff2e5;
 }
 .store-top:hover {
   transition: .5s;
-  box-shadow: 6px 6px 6px -8px grey;
+  box-shadow: 6px 6px 6px -8px black;
   border: 1px;
   background: #ffe6cc;
 }
@@ -162,7 +165,7 @@ cta
 }
 .store-cta-button h3{
   //color: green;
-  color: #ff9900;
+  color: #ff751a;
   font-weight: bold;
   font-size: 20px;
   //background-color: yellow;
@@ -278,7 +281,7 @@ input:focus textarea:focus{
   .shelf-head-left {
     width:1000px;
     margin: 0px auto 0px auto;
-    padding: 20px 20px 20px 0px;
+    padding: 10px 20px 0px 0px;
     list-style-type: none;
     content: "";
     clear: both;
@@ -436,5 +439,8 @@ input:focus textarea:focus{
     width: 100%;
     margin: 0px 0 0px 0px;
     padding: 0px 0 20px 10px;
+  }
+  .store-whatuget li {
+    max-width: 282px;
   }
 }
