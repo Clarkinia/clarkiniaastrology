@@ -10,8 +10,8 @@ form-byline: Less fuzzy navel gazing
 description: The Natal Chart shows your personal patterns, family lineage and how your actions impact the way you create your destiny.
 testimonial: My natal chart has been key for me to think bigger and organize my action items. Regina is very intuitive and loves to vibe with people to help them develop.
 testimonial-auth: D.J.
-button: store_buttons_natal.jpg
-cta: Order a natal astrology chart
+button: birth_button_black.png
+cta: Order your chart
 money-offer: Get your chart for $150
 bgimage: store-form-natal-background1.jpg
 receive: You will receive your chart by email one day prior to your consultation.

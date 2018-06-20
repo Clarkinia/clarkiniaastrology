@@ -9,19 +9,23 @@
 .shelf-header-content {
   color: black;
   width:640px;
-  padding: 10px 0 10px 0;
+  padding: 0px 0 0px 0;
   margin: 0px 0 0 60px;
   text-align: left;
   background-color:  white;
 }
 .shelf-headhead {
   padding: 0;
-  margin: 0;
+  margin: 8px;
 }
 .header-image img {
   float:left;
-  width: 40px;
-  margin: 0 6px 0 2px;
+  width: 32px;
+  margin: 0px 0px 0px 0px;
+  padding: 0 0px 0 0;
+}
+.header-image {
+  margin: 0px 0px 0 0;
 }
 @media (max-width: $tablet-width+70) {
   .shelf-header-content {

@@ -1,7 +1,7 @@
 ---
 layout: shelf
 title:
-header: 
+header:
 ---
 <body>
 <article class="store">
@@ -13,7 +13,7 @@ header:
         <div class="store-top">
 
           <div class="store-testimonial">
-            <h15>"{{ purchase.testimonial }}" —{{ purchase.testimonial-auth}}</h15>
+            <h3>"{{ purchase.testimonial }}" —{{ purchase.testimonial-auth}}</h3>
           </div>
         </div> <!-- closes store-top -->
         </a>

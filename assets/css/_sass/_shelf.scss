@@ -12,24 +12,21 @@ body {
   background-color: black;
 }
 .shelf-subhead {
-  width: 640px;
+  width: 760px;
   display: block;
   padding: 20px 0 10px 0;
   text-align: left;
   color: white;
 }
 .shelf-subhead-description {
-  width: 640px;
+  width: 760px;
   margin: 0px 0 0 60px;
   padding: 0px 0 0px 0;
   font-size: 1em;
   font-weight: 400;
 }
-.shelf-subhead-description h111{
-  line-height: 80px;
-}
 .shelf-subhead-cta {
-  width: 640px;
+  width: 760px;
   margin: 0px 0 0 60px;
   padding: 20px 0 0px 0;
 }
@@ -59,8 +56,10 @@ body {
   box-sizing: border-box;
 }
 .store-items {
+  //width: 1000px;
   display: block;
   margin: 0 auto 0 auto;
+  //padding: 20px;
 }
 .store-items ul {
   margin: 0px auto 0px auto;
@@ -86,11 +85,12 @@ body {
   Box Appearance
 */
 .store-top {
-  padding: 0px;
+  padding: 20px 15px 20px 15px;
   margin: 0px;
-  background: #fff2e5;
+  //background: #fff2e5;
 }
 .store-top:hover {
+  transition: .5s;
   box-shadow: 6px 6px 6px -8px grey;
   border: 1px;
   background: #ffe6cc;
@@ -98,38 +98,38 @@ body {
 /*
   Buttons
 */
+.store-product-name {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
 .store-button {
-  margin: 20px 0 0 0;
-  padding: 0px;
-  width: 100%;
+  margin: 0px auto 0px auto;
+  //padding: 20px 20px 20px 40px;
+  //list-style-type: none;
+  content: "";
+  clear: both;
+  display: table;
+  align: middle;
+}
+.store-button-container {
   float: left;
-  line-height: 10px;
+  width: 33.33%;
+  //padding: 0 0 20px 0;
+  margin: 0px;
 }
 .store-button img{
   width: 24vw;
-  max-width: 260px;
+  max-width: 100px;
   border: none;
   padding: 0px;
-  margin: 0px 0 20px 0;
-}
-.store-button img:hover{
-  box-shadow: 6px 6px 6px -6px grey;
-  border: 1px;
-}
-.store-cta-button h15{
-  margin: 0px;
-  padding: 0px;
-  color: #1279c5;
-}
-.store-cta-button h15:hover {
-  text-decoration: underline;
-  color: green;
+  margin: 0px auto 0px auto;
 }
 /*
   Bullet Points
 */
-.store-whatuget h15 {
-  font-weight: bold;
+
+.store-whatuget h3 {
+  line-height: 26px;
 }
 .store-whatuget ul {
   color: black;
@@ -137,19 +137,35 @@ body {
   list-style-position: inside;
   display: block;
   padding: 0px;
-  margin-top: 10px;
+  margin: 0px;
 }
 .store-whatuget li {
   float: left;
   width: 100%;
   padding: 0px;
-  margin: 0px;
+}
+.store-whatuget ul :nth-child(3) {
+  margin-bottom: 10px;
 }
 .store-whatuget ul :nth-child(4) {
   display: none;
 }
 .store-whatuget ul :nth-child(5) {
   display: none;
+}
+/*
+cta
+*/
+.store-cta-button {
+  margin: 0px 0 0px 0;
+  padding: 0px;
+}
+.store-cta-button h3{
+  //color: green;
+  color: #ff9900;
+  font-weight: bold;
+  font-size: 20px;
+  //background-color: yellow;
 }
 /*
   Testimonial
@@ -164,7 +180,7 @@ body {
   background-color: black;
   padding:10px;
 }
-.store-testimonial h15 {
+.store-testimonial h3 {
   color: white;
 }
 /*
@@ -297,7 +313,8 @@ input:focus textarea:focus{
     background-color: black;
   }
 }
-  @media (max-width: $tablet-width+140px) {
+
+@media (max-width: $tablet-width+140px) {
   .contact-section {
     background-color: white;
   }
@@ -330,15 +347,24 @@ input:focus textarea:focus{
   textarea#messagebox {
     width: 360px;
   }
+  .shelf-subhead {
+    width: 560px;
+  }
+  .shelf-subhead-description h1{
+    line-height: 1.1em;
+    font-size: 4.4em;
+  }
+  .shelf-subhead-description {
+    width: 560px;
+  }
+  .shelf-subhead-cta {
+    width: 560px;
+  }
 }
 @media (max-width: $tablet-width+70) {
   .store-items li {
     float: none;
     width: 100vw;
-  }
-  .store-button img{
-    width: 80vw;
-    max-width: 260px;
   }
   .store-testimonial {
     width: 80vw;
@@ -350,7 +376,7 @@ input:focus textarea:focus{
   .shelf-subhead {
     width:80vw;
   }
-  .shelf-subhead-description h111{
+  .shelf-subhead-description h1{
     line-height: 1.1em;
     font-size: 3.4em;
   }
@@ -380,11 +406,11 @@ input:focus textarea:focus{
   textarea#messagebox {
     width: 260px;
   }
-  .shelf-subhead-description h111{
+  .shelf-subhead-description h1{
     line-height: 1em;
     font-size: 2.2em;
   }
-  .shelf-subhead-cta h111{
+  .shelf-subhead-cta h1{
     line-height: 1em;
     font-size: 2.2em;
   }

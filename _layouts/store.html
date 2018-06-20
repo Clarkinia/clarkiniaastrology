@@ -3,16 +3,12 @@
 {% include head.html %}
 <header class="store-form-header"><!---  HEADER -->
   <div class="store-form-title">
-    <h7>
-      Order Your
-      <span class="store-form-product">
-      {{ page.name }}
-      </span>
-    </h7>
+      <h4 class="order-your">Order Your</h4>
+      <h4 class="store-form-product">{{ page.name }}</h4>
     <div class="store-form-subhead">
-      <h11>
+      <h5>
         {{ page.form-byline }}
-      </h11>
+      </h5>
     </div>
   </div> <!---  closes out store-form-title -->
 </header>
@@ -23,10 +19,10 @@
       <div class="store-wrapper">
         <!--- THE DEETS -->
         <div class="store-form-description"><!---  DEETS -->
-          <h8>{{ page.money-offer }}</h8>
+          <h2>{{ page.money-offer }}</h2>
           <div class ="store-form-includes">
-            <h15>Your {{ page.name }} includes: {{ content }}</h15>
-            <h15>{{ page.receive }}</h15>
+            <h3>Your {{ page.name }} includes: {{ content }}</h3>
+            <h3>{{ page.receive }}</h3>
           </div>
         </div>
         <!--- ORDER FORM STARTS -->
@@ -39,7 +35,7 @@
             </p>
             <!--- 1 SCHEDULE -->
             <div class="store-form-section">
-              <h8>Schedule your appointment</h8><br>
+              <h2>Schedule your appointment</h2><br>
               <!--- 1a SELECT APPT DATE -->
               <div class="store-form-question">
                 <div class="date-selector">
@@ -112,7 +108,7 @@
               </div><!-- closes store-form-question PHONE OR IN PERSON-->
               <!-- 2 CONTACT INFO -->
               <div class="store-form-section">
-                  <h8>Enter your contact information</h8><br>
+                  <h2>Enter your contact information</h2><br>
                   <p>
                     <label>Name <br><input type="text" name="name" placeholder="Name" required></label>
                   </p>
@@ -126,7 +122,7 @@
               <!-- 3 BIRTH INFO -->
               {% if page.get-birth-info %}
               <div class="store-form-section">
-                <h8>Enter your birth information</h8><br>
+                <h2>Enter your birth information</h2><br>
                 <p>
                   <label>Where you were born<br>
                     <input type="text" name="birth-location" placeholder="Country, City, State" required><br>
@@ -163,7 +159,7 @@
               </div><!-- closes out BIRTH INFO -->
               {% endif %}
               <div class="button-margins">
-                <button type="submit" class="store-form-button"><h8>NEXT <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h8></button>
+                <button type="submit" class="store-form-button"><h2>NEXT <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h2></button>
               </div>
             </form>
           </div> <!--- clsoes out store-orderform -->

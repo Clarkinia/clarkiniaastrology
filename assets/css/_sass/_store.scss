@@ -4,23 +4,27 @@
 .store-form-header {
   padding: 0px 0px 0px 0px;
   margin: 40px 0 0 80px;
-  width: 400px;
+  //width: 400px;
   display: block;
 }
 .store-form-title {
   text-align: left;
   float: left;
 }
+.order-your {
+  width: 400px;
+}
 .store-form-product {
   color: white;
+  width: 460px;
 }
 .store-form-subhead {
   margin-bottom: 20px;
 }
-.store-form-subhead h11{
+.store-form-subhead h5{
   text-decoration: none;
   font-size: 1.4em;
-  background-color: #8fc1e6;
+
 }
 /*
   Site container
@@ -46,10 +50,11 @@
   The Deets Bullet Points
 */
 .store-form-description {
-  padding: 0px 0px 0 0px;
+  padding: 0px 0px 10px 0px;
   margin: 0px 0 0 80px;
   display: block;
-  width: 400px;
+  width: 460px;
+  background-color: #8fc1e6;
 }
 .store-form-description h8{
   background-color: #8fc1e6;
@@ -57,7 +62,7 @@
 .store-form-includes {
   margin: 10px 0 10px 0;
 }
-.store-form-includes h15{
+.store-form-includes h3{
   font-family: Arial;
   font-weight: bold;
   background-color: #8fc1e6;

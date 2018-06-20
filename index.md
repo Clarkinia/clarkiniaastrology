@@ -22,20 +22,28 @@ bio: has been reading tarot and astrology charts for 20 years. She writes about 
         <a href="{{ reading.url }}">
         <div class="store-top">
           <div class="store-button">
-            <img src="{{ site.github.url }}/assets/img/{{ reading.button }}" >
+            <div class="store-button-container">
+              <img src="{{ site.github.url }}/assets/img/{{ reading.button }}" >
+            </div>
+          </div>
+          <div class="store-product-name">
+            <h5>{{ reading.name }}</h5>
           </div>
           <div class="store-byline">
-            <h8>{{ reading.byline }}</h8>
+            <h2>{{ reading.byline }}</h2>
           </div>
           <div class ="store-whatuget">
-            <h15>{{ reading.content }}</h15>
+            <h3>{{ reading.content }}</h3>
           </div>
           <div class="store-cta-button">
-            <h15>{{ reading.cta }}</h15>
+            <h3>{{ reading.cta }}</h3>
           </div>
+
+<!--
           <div class="store-testimonial">
-            <h15>"{{ reading.testimonial }}" —{{ reading.testimonial-auth}}</h15>
+            <h3>"{{ reading.testimonial }}" —{{ reading.testimonial-auth}}</h3>
           </div>
+-->
         </div> <!-- closes store-top -->
         </a>
       </li>
