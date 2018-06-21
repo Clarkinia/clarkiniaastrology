@@ -1,6 +1,7 @@
 ---
 layout: store
 name: Tarot Reading
+title: Tarot Reading
 price: 80
 slug: tarot
 sku: TAR1hr

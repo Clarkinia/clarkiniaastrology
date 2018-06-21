@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: shelf
-title:
+title: Clarkinia Astrology
 image: noun_103916_cc_horiz.gif
 header: Clarkinia Astrology
 subhead: straightforward intuitive guidance

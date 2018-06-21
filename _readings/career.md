@@ -1,6 +1,7 @@
 ---
 layout: store
 name: Career Chart
+title: Career Chart
 price: 150
 slug: career
 sku: ASTcar

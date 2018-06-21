@@ -1,6 +1,7 @@
 ---
 layout: store
 name: Natal Chart
+title: Natal Chart
 price: 150
 slug: natal
 sku: ASTnat
