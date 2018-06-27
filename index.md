@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: shelf
 title: Clarkinia Astrology
-image: noun_103916_cc_horiz.gif
+image: /assets/img/store-form-career-background3.jpg
 header: Clarkinia Astrology
 subhead: straightforward intuitive guidance
 author: with Regina Clarkinia
@@ -12,6 +12,7 @@ bioheader: Regina Clarkinia
 biopic: bio_pic_astrology_bw.jpg
 description: Candid astrology and tarot readings designed to get your butt in gear.
 bio: has been reading tarot and astrology charts for 20 years. She writes about mysticism and teaches practical meditation techniques. Her readings investigate family relationships, personality patterns and career strategy. Regina tells it like it is with candid readings designed to get your butt in gear.
+url: https://www.clarkiniaastrology.com
 ---
 <head>
 <meta property="og:url"                content="https://www.clarkiniaastrology.com" />
