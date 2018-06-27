@@ -2,6 +2,10 @@
   <title>
     {% if page.title == "Home" %}
       {{ site.data.settings.title }}
+      <meta property="og:url"                content="https://www.clarkiniaastrology.com" />
+      <meta property="og:type"               content="product.group" />
+      <meta property="og:description"        content="Astrology and tarot readings designed to get your butt in gear." />
+      <meta property="og:image"              content="/assets/img/store-form-career-background3.jpg" />
     {% else %}
       {{ page.title }} | {{ site.data.settings.title }}
     {% endif %}
@@ -21,11 +25,7 @@
   {% feed_meta %}
   <!-- Use Jekyll SEO plugin -->
   {% seo %}
-  <meta property="og:url"                content="https://www.clarkiniaastrology.com" />
-  <meta property="og:type"               content="product.group" />
-  <meta property="og:title"              content="Clarkinia Astrology" />
-  <meta property="og:description"        content="Astrology and tarot readings designed to get your butt in gear." />
-  <meta property="og:image"              content="https://www.clarkiniaastrology.com/assets/img/store-form-career-background3.jpg" />
+
   <!-- Installed jquery when I was testing Snipcart store
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
  -->
