@@ -17,6 +17,7 @@ title: Clarkinia Astrology
 description: Astrology and tarot readings designed to get your butt in gear.
 baseurl: ''
 url: https://clarkiniaastrology.com # the base hostname & protocol for your site, e.g. http://example.com
+logo: /assets/img/clarkinia_astrology_logo.jpg
 
 # Build settings
 markdown: kramdown
