@@ -21,6 +21,7 @@ bio: has been reading tarot and astrology charts for 20 years. She writes about 
       {% for reading in site.readings %}
       <li>
         <a href="{{ reading.url }}">
+        <div class="store-top-container">
         <div class="store-top">
           <div class="store-button">
             <div class="store-button-container">
@@ -39,13 +40,8 @@ bio: has been reading tarot and astrology charts for 20 years. She writes about 
           <div class="store-cta-button">
             <h3>{{ reading.cta }}</h3>
           </div>
-
-<!--
-          <div class="store-testimonial">
-            <h3>"{{ reading.testimonial }}" —{{ reading.testimonial-auth}}</h3>
-          </div>
--->
         </div> <!-- closes store-top -->
+        </div>
         </a>
       </li>
       {% endfor %}

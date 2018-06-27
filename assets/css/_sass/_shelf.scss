@@ -71,12 +71,13 @@ body {
   align: middle;
 }
 .store-items li {
-
+  //display: table-cell;
   float: left;
   width: 33.33%;
   padding: 20px;
   margin: 0px;
   max-width: 320px;
+  //display: table;
 }
 .store-items a {
   color: black;
@@ -85,7 +86,11 @@ body {
 /*
   Box Appearance
 */
+.store-top-container {
+
+}
 .store-top {
+
   padding: 20px 15px 20px 15px;
   margin: 0px;
   box-shadow: 6px 6px 6px -6px grey;
@@ -93,7 +98,10 @@ body {
   border-color: #d9d9d9;
   border-style: solid;
   border-width: .5px;
+
   //background: #fff2e5;
+
+
 }
 .store-top:hover {
   transition: .5s;
@@ -319,8 +327,7 @@ input:focus textarea:focus{
     background-color: black;
   }
 }
-
-@media (max-width: $tablet-width+140px) {
+@media (max-width: $tablet-width+160px) {
   .contact-section {
     background-color: white;
   }
@@ -366,12 +373,15 @@ input:focus textarea:focus{
   .shelf-subhead-cta {
     width: 560px;
   }
-}
-@media (max-width: $tablet-width+70) {
   .store-items li {
     float: none;
     width: 100vw;
   }
+  .store-whatuget li {
+    max-width: 282px;
+  }
+}
+@media (max-width: $tablet-width+70) {
   .store-testimonial {
     width: 80vw;
     max-width: 260px;
@@ -442,8 +452,5 @@ input:focus textarea:focus{
     width: 100%;
     margin: 0px 0 0px 0px;
     padding: 0px 0 20px 10px;
-  }
-  .store-whatuget li {
-    max-width: 282px;
   }
 }
