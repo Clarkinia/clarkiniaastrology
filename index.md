@@ -13,6 +13,13 @@ biopic: bio_pic_astrology_bw.jpg
 description: Candid astrology and tarot readings designed to get your butt in gear.
 bio: has been reading tarot and astrology charts for 20 years. She writes about mysticism and teaches practical meditation techniques. Her readings investigate family relationships, personality patterns and career strategy. Regina tells it like it is with candid readings designed to get your butt in gear.
 ---
+<head>
+<meta property="og:url"                content="https://www.clarkiniaastrology.com" />
+<meta property="og:type"               content="product.group" />
+<meta property="og:title"              content="Clarkinia Astrology" />
+<meta property="og:description"        content="Astrology and tarot readings designed to get your butt in gear." />
+<meta property="og:image"              content="https://www.clarkiniaastrology.com/assets/img/store-form-career-background3.jpg" />
+<head>
 <body>
 <article class="store">
   <div class="store-items">
