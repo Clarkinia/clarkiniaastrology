@@ -27,7 +27,7 @@
         </div>
         <!--- ORDER FORM STARTS -->
         <div class="store-orderform">
-          <form name="{{ name.slug }}" method="POST" data-netlify="true">
+          <form name="{{ name.slug }}" method="POST" data-netlify="true" action="/purchases/{{ page.cart-url }}”>
             <!--- BOT-KILLER .hidden in the CSS -->
             <p class="hidden">
               <label>Don’t fill this out if you're human: <input name="bot-field"></label>
@@ -135,9 +135,7 @@
               </div><!-- closes out BIRTH INFO -->
               {% endif %}
               <div class="button-margins">
-                <a href="/purchases/{{ page.cart-url }}">
                 <button type="submit" class="store-form-button"><h2>NEXT <i class="fa fa-chevron-circle-right" style="font-size:30px"></i></h2></button>
-              </a>
               </div>
             </form>
           </div> <!--- clsoes out store-orderform -->
