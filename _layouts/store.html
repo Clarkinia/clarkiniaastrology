@@ -27,7 +27,7 @@
         </div>
         <!--- ORDER FORM STARTS -->
         <div class="store-orderform">
-          <form name="{{ name.slug }}" method="POST" data-netlify="true" action="/purchases/{{ page.cart-url }}”>
+          <form name="{{ name.slug }}" method="POST" action="/purchases/{{page.cart-url}}" data-netlify="true" >
             <!--- BOT-KILLER .hidden in the CSS -->
             <p class="hidden">
               <label>Don’t fill this out if you're human: <input name="bot-field"></label>
