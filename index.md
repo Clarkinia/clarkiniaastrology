@@ -11,7 +11,7 @@ cta: Choose a reading based on what you need now.
 bioheader: Regina Clarkinia
 biopic: bio_pic_astrology_bw.jpg
 description: Candid astrology and tarot readings designed to get your butt in gear.
-bio: has been reading tarot and astrology charts for 20 years. She writes about mysticism and teaches practical meditation techniques. Her readings investigate family relationships, personality patterns and career strategy. Regina tells it like it is with candid readings designed to get your butt in gear.
+bio: I listen to what a client needs, intuitively pointing to useful insights, keeping track of the conversation and organizing takeaways into a cohesive narrative with an action-oriented strategy. I am most influenced by a modern psychological astrology approach, however I take a little from everywhere, including hellenistic timing procedures and insights from evolutionary astrology. I have been reading tarot and astrology charts professionally since 2014. I write about mysticism and teach practical meditation techniques. My readings investigate key relationships, personality patterns and vocation.
 url: https://www.clarkiniaastrology.com
 ---
 <body>
