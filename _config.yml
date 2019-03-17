@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Clarkinia Astrology
-description: Astrology and tarot readings designed to get your butt in gear.
+description: Life is a journey. Your birth chart can help light the way.
 baseurl: ''
 url: https://clarkiniaastrology.com # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/img/clarkinia_astrology_logo.jpg

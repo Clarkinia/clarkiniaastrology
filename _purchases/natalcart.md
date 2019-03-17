@@ -1,7 +1,7 @@
 ---
 layout: cart
 name: Natal Chart
-price: 150
+price: 75
 slug: natal
 sku: ASTnat
 image: store_natal_noun_1189862_cc.svg
