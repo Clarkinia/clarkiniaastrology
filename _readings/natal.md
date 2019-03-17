@@ -15,6 +15,7 @@ button: birth_button_black.png
 cta: Order your chart
 money-offer: Get your chart for $75
 bgimage: store-form-natal-background1.jpg
+img: https://www.clarkiniaastrology.com/assets/img/store-form-natal-background1.jpg
 receive: Payment through PayPal is handled when the consultation is scheduled. $75 covers both the time I take before our session to study your chart, as well as the actual consultation itself. You will receive your chart by email one hour prior to your consultation. You will receive a link to the MP3 recording immediately after the consultation.
 get-birth-info: Y
 cart-url: natalcart
