@@ -24,3 +24,5 @@ cart-url: natalcart
 - PDF of my notes highlighting what stands out in your chart
 - 75-minute consultation
 - MP3 recording of our conversation
+
+<!-- https://www.clarkiniaastrology.com/assets/img/store-form-natal-background1.jpg -->
