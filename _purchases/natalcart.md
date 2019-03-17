@@ -10,7 +10,7 @@ description: The Natal Chart shows your personal patterns, family lineage and ho
 testimonial: My natal chart has been key for me to think bigger and organize my action items. Regina is very intuitive and loves to vibe with people to help them develop.
 testimonial-auth: D.J.
 bgimage: store-form-natal-background1.jpg
-receive: You will receive your chart by email one day prior to your consultation.
+receive: You will receive your chart by email one hour prior to your consultation.
 get-birth-info: Y
 natal: this is for the paypal button
 the-notice: "Cancellation notice:"

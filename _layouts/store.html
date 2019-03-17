@@ -22,6 +22,20 @@
           <h2>{{ page.money-offer }}</h2>
           <div class ="store-form-includes">
             <h3>Your {{ page.name }} includes: {{ content }}</h3>
+            {% if page.name == "Natal Chart" %}
+            <h3>
+              <b>Life is a journey. Your birth chart can help light the way.</b>
+              <p>
+                Your birth chart is like a video game guide: not the cheat codes, but a great resource. It reveals keys to develop and evolve through some of your more painful obstacles. Your chart includes tools, relationship patterns, personal style, your soul path and timing of major life events.
+              </p>
+              <p>
+                A birth chart can feel very supportive in the way that it affirms what a person knows to be true. Whether it’s positive or negative traits and life situations, when a person recognizes themselves in their chart dynamics it helps them to better get their bearings and align with a sense of purpose.
+              </p>
+              <p>
+                You will lead the conversation, sharing your main areas of concern. I will guide you through your chart, focusing on the points for you to hit in this next chapter.
+              </p>
+            </h3>
+            {% endif %}
             <span class="store-form-receive"><h3>{{ page.receive }}</h3></span>
           </div>
         </div>
