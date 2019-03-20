@@ -6,7 +6,7 @@ price: 150
 slug: career
 sku: ASTcar
 image: store_career_noun_1502690_cc.svg
-byline: I am ready to update my career game plan.
+byline: Take steps towards a meaningful career path.
 form-byline: Find out what makes you tick
 description: The Career Chart looks what roles you perform in the workplace, how to capitalize on your talents and how you gain status, success and prominence.
 testimonial: Regina helped me realize where my power was for my career, how to best handle issues that arise in that domain, and what to simply not worry about anymore.

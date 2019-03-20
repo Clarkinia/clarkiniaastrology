@@ -6,7 +6,7 @@ price: 80
 slug: tarot
 sku: TAR1hr
 image: store_tarot_noun_1479176_cc.svg
-byline: I want perspective on my current situation.
+byline: Get perspective on your current situation.
 form-byline: For that new car smell
 description: Tarot Readings give you insight into what's going on in your life right now. Get practical advice and messages from your subconscious and higher guidance.
 testimonial: The tarot reading you did for me turned out to be spot-on in ways I could never have imagined at that moment. Thank you for the insight and encouragement.
