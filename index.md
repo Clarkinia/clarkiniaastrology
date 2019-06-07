@@ -6,9 +6,9 @@ title: Clarkinia Astrology
 image: /assets/img/store-form-career-background3.jpg
 header: Clarkinia Astrology
 subhead: straightforward intuitive guidance
-author: with Regina Clarkinia
+author: with Reg Clarkinia
 cta: Choose a reading based on what you need now.
-bioheader: Regina Clarkinia
+bioheader: Reg Clarkinia
 biopic: bio_pic_astrology_bw.jpg
 description: Candid astrology and tarot readings designed to get your butt in gear.
 bio: In a session I listen to my client, intuitively pointing to useful insights, keeping track of the conversation and organizing takeaways into a cohesive narrative with an action-oriented strategy. I am most influenced by a modern psychological astrology approach, however I take a little from everywhere, including hellenistic timing procedures and insights from evolutionary astrology. I have been reading tarot and astrology charts professionally since 2014. <a href="https://www.queerauntie.com">I write about mysticism </a>and teach practical meditation techniques. My readings investigate key relationships, personality patterns and vocation.
