@@ -1,4 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.2'
+gem 'rspec'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -29,4 +32,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem 'jekyll-sitemap'
-
