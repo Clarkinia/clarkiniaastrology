@@ -3,7 +3,7 @@ gem 'nokogiri'
 gem 'rack', '~> 2.0.1'
 gem 'rspec'
 gem 'sassc'
-
+ruby "2.6.5p114"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
