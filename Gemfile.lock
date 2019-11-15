@@ -267,7 +267,7 @@ DEPENDENCIES
   jekyll-sitemap
   minima (~> 2.4.1)
   nokogiri
-  rack (~> 2.0.2)
+  rack (~> 2.0.1)
   rspec
   tzinfo-data
   wdm (~> 0.1.0)
